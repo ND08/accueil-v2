@@ -1,0 +1,195 @@
+
+@font-face{
+    font-family: 'tekturts'; /** Nom de la police **/
+    src: url('assets/fonts/tekturts.ttf');
+    src: url('assets/fonts/tektightr.ttf' ) ; /** Chemin de stockage **/
+}
+ 
+header{
+    background: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+ /*logo */
+
+.logo { 
+  width: 20%;
+}
+
+.entete { 
+  display :flex; 
+  flex-direction: column;
+  width: 80%;
+  font-family: 'tekturts'; 
+    src: url('assets/fonts/tektightr.ttf' ) ;
+    
+  /* text-align: center;
+  justify-content: space-between; */
+  /* box-shadow: rgb(0, 0, 0);
+  text-shadow: rgb(0, 0, 0); */
+
+  /*ente */
+}
+
+.enteteRow1{
+  width: 100%;
+  display :flex; 
+  flex-direction: row;
+  justify-content: end;
+}
+
+.enteteRow2{
+  width: 100%;
+  display :flex; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+.enteteRow1 .buttonDiv{
+  margin-right: 10%;
+  padding: 5px;
+}
+
+.enteteRow2 .buttonDiv{
+  margin-right: 20%;
+  padding: 5px;
+  padding-top: 90px;
+}
+ /*les boutons */
+ 
+.button{
+  color: white;
+  background-color:rgb(253, 11, 11);
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+  border: 1px ;  
+  border-radius: 8px;
+  font: src= url('assets/fonts/tekturts.ttf');
+  padding: 15px 32px;
+     
+  box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+}
+
+.buttonDivQuiFaitChier{
+  display: flex;
+  flex-direction: row-reverse;
+ justify-self:right
+}
+
+
+
+.buttonNews{
+  display: flex;
+  background-color: rgb(223, 223, 223);
+  color: black;
+  justify-content: end;
+     
+  box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+}
+
+   
+body{
+    font-family: "tekturts";
+    font: src= url('assets/fonts/tekturts.ttf');
+    font-size: x-large;
+    background-color: rgb(128, 127, 127);  
+}
+
+footer{
+    background: rgb(46, 46, 46);
+ }
+   
+
+
+.formules { 
+    display :flex;
+    background: rgb(241, 241, 241);
+    background-color: rgb(253, 11, 11);
+    text-align: center;
+    border:solid black 3px; 
+    border-radius: 8px;
+    color: rgb(253, 253, 253);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+ 
+}
+section.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+section.container .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+section.container img, p, h2 {
+  padding: 5px;
+  width: 80%;
+margin: auto;
+}
+
+section.container p.price {
+  font-size: 20px;
+
+}
+
+.bandeau { 
+    display :flex;
+    background: rgb(255, 0, 0);
+    color: ghostwhite;
+    border: 3px ; 
+    box-shadow: 12px 12px 2px 1px rgba(52, 52, 53, 0.2);
+    text-align: center;
+    justify-content: center;
+    border-bottom : 3px solid rgb(128, 127, 127);
+  
+}
+    
+
+.buttondebuter{
+  background-color: #f10d0d;
+  border: 3px; 
+  color: white;
+  border-color: black;
+  text-align: center;
+  border-radius: 8px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#wtf {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+/*.button{
+    background-color: #f10d0d;
+    border: 1px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} /*
+ 
